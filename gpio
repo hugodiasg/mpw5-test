@@ -2,6 +2,8 @@
 
 mkdir gpio_test
 
-Run `gpio_config_builder.py` [`sudo make gpio_config_data.c`] with `gpio_config_def.py` and `gpio_config_io.py`to generate `gpio_config_data.c`and `gpio_config_data.py`
+Edit gpio_config_io.py to setup the GPIO configs
 
-Run `sudo make flash clean` to generate `.hex` from gpio_config_data.c` and flash to Caravel Board
+Run sudo make gpio_config_data.c [To use gpio_config_builder.py with gpio_config_def.py and gpio_config_io.py to generate gpio_config_data.c and gpio_config_data.py]
+
+Run sudo make flash clean to generate .hex from gpio_config_data.c and flash to Caravel Board
